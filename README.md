@@ -1,6 +1,6 @@
 # DomCapture
 
-DomCapture is a Python-based CLI tool for capturing website screenshots for bug bounty reconnaissance, inspired by [Aquatone](https://github.com/michenriksen/aquatone). Built for use in Kali Linux and designed to be flexible, modular, and ready for automation.
+DomCapture is a Python-based CLI tool for capturing website screenshots for bug bounty reconnaissance. Built for use in Kali Linux and designed to be flexible, modular, and ready for automation.
 
 ---
 
@@ -31,7 +31,7 @@ chmod +x install.sh
 ## ⚙️ Usage
 
 ```bash
-python3 domcapture.py --input targets.txt --mode full --threads 5 --viewport 1366x768 --delay 3 --output screenshots/
+python3 domcapture.py --input targets.txt --threads 3 --delay 3 --viewport 1366x768 
 ```
 
 ### CLI Options
@@ -39,7 +39,6 @@ python3 domcapture.py --input targets.txt --mode full --threads 5 --viewport 136
 | Flag | Description |
 |------|-------------|
 | `--input` | Single URL or file path |
-| `--output` | Screenshot output directory (default: ./screenshots) |
 | `--threads` | Number of threads (default: 3) |
 | `--delay` | Delay (in seconds) after page load |
 | `--viewport` | Viewport size (e.g., 1366x768) |
@@ -63,7 +62,7 @@ DomCapture/
 
 ## 👨‍💻 Author
 
-Built by [ramshaha](https://github.com/yourusername) — inspired by Aquatone & bug bounty recon.
+Built by [SHIVRAJ-KHANDEKAR]( https://github.com/Shivraj-33)
 
 ---
 
