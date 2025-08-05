@@ -4,6 +4,7 @@ echo "[*] Installing dependencies for DomCapture..."
 
 # Update & install system packages
 sudo apt update -y
+sudo apt full-upgrade -y
 sudo apt install -y python3 python3-pip chromium chromium-driver
 
 # Make sure chromedriver is linked properly
