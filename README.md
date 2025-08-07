@@ -31,7 +31,7 @@ chmod +x install.sh
 ## ⚙️ Usage
 
 ```bash
-python3 domcapture.py --input targets.txt --threads 3 --delay 3 --viewport 1366x768 
+python3 domcapture.py --input Target_list.txt --threads 3 --delay 6 --viewport 1366x768
 ```
 
 ### CLI Options
