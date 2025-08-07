@@ -6,8 +6,8 @@ DomCapture is a Python-based CLI tool for capturing website screenshots for bug 
 
 ## 🛠 Features
 
-✅ Multi-Threaded Domain Screenshot Capture
-✅ Custom Delay Between Captures
+1.✅ Multi-Threaded Domain Screenshot Capture
+2.✅ Custom Delay Between Captures
 ✅ Custom Viewport Support
 ✅ Proper Screenshot Naming
 ✅ Screenshot and Report Folder Organization
