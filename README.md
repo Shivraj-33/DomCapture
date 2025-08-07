@@ -6,15 +6,25 @@ DomCapture is a Python-based CLI tool for capturing website screenshots for bug 
 
 ## 🛠 Features
 
-- ✅ Single or list of URLs as input
-- ✅ Headless Chrome (Selenium) for screenshot capture
-- ✅ Live host check before capture
-- ✅ Clickable HTML gallery + CSV report
-- ✅ Metadata: status, title, timestamp, redirect chain
-- ✅ Failed host logging
-- ✅ Fully automated, semi-automated & custom modes
-- ✅ Clean, readable CLI flags
-
+✅ Multi-Threaded Domain Screenshot Capture
+✅ Custom Delay Between Captures
+✅ Custom Viewport Support
+✅ Proper Screenshot Naming
+✅ Screenshot and Report Folder Organization
+✅ Automatic CSV and HTML Report Generation
+✅ Enhanced HTML Report View
+✅ Proper Error Logging & Feedback
+✅ Graceful Ctrl+C (KeyboardInterrupt) Handling
+✅ Wait for Full Page Load Before Screenshot
+✅ Headless Chrome Browser Control (Selenium + undetected_chromedriver)
+✅ Custom Input File Support
+✅ Support for PDF and Non-HTML Pages
+✅ Failsafe Screenshot Format
+✅ Portable Reports
+✅ Title Extraction for Each Page
+✅ URL Labeling Below Each Screenshot
+✅ Single Screenshot per URL (No Overwrite Bug)
+✅ Resizable Screenshot Display (HTML Report)
 ---
 
 ## 🚀 Installation
